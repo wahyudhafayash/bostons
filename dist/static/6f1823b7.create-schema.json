@@ -1,0 +1,137 @@
+[
+  {
+    "fields": [
+      {
+        "name": "headline",
+        "type": "string"
+      },
+      {
+        "options": {
+          "source": "headline",
+          "maxLength": 100
+        },
+        "validation": [
+          {
+            "rules": [
+              {
+                "flag": "custom"
+              }
+            ],
+            "level": "error"
+          }
+        ],
+        "name": "slug",
+        "type": "slug"
+      },
+      {
+        "name": "penulis",
+        "type": "string",
+        "title": "Dipublikasikan Oleh"
+      },
+      {
+        "name": "tanggalPenerbitan",
+        "type": "datetime"
+      },
+      {
+        "name": "gambar1",
+        "type": "image"
+      },
+      {
+        "name": "imagesource1",
+        "type": "string",
+        "title": "Sumber Foto 1"
+      },
+      {
+        "name": "paragraph1",
+        "type": "text"
+      },
+      {
+        "name": "deskripsigambar1",
+        "type": "text",
+        "title": "Deskripsi Gambar 1"
+      },
+      {
+        "name": "gambar2",
+        "type": "image",
+        "title": "Gambar 2 (TIDAK WAJIB)"
+      },
+      {
+        "name": "imagesource2",
+        "type": "string",
+        "title": "Sumber Foto 2 (TIDAK WAJIB)"
+      },
+      {
+        "name": "paragraph2",
+        "type": "text",
+        "title": "Paragraph 2 (TIDAK WAJIB)"
+      },
+      {
+        "name": "deskripsigambar2",
+        "type": "text",
+        "title": "Deskripsi Gambar 2 (TIDAK WAJIB)"
+      },
+      {
+        "name": "gambar3",
+        "type": "image",
+        "title": "Gambar 3 (TIDAK WAJIB)"
+      },
+      {
+        "name": "imagesource3",
+        "type": "string",
+        "title": "Sumber Foto 3 (TIDAK WAJIB)"
+      },
+      {
+        "name": "paragraph3",
+        "type": "text",
+        "title": "Paragraph 3 (TIDAK WAJIB)"
+      },
+      {
+        "name": "deskripsigambar3",
+        "type": "text",
+        "title": "Deskripsi Gambar 3 (TIDAK WAJIB)"
+      },
+      {
+        "name": "gambar4",
+        "type": "image",
+        "title": "Gambar 4 (TIDAK WAJIB)"
+      },
+      {
+        "name": "imagesource4",
+        "type": "string",
+        "title": "Sumber Foto 4 (TIDAK WAJIB)"
+      },
+      {
+        "name": "paragraph4",
+        "type": "text",
+        "title": "Paragraph 4 (TIDAK WAJIB)"
+      },
+      {
+        "name": "deskripsigambar4",
+        "type": "text",
+        "title": "Deskripsi Gambar 4 (TIDAK WAJIB)"
+      },
+      {
+        "name": "gambar5",
+        "type": "image",
+        "title": "Gambar 5 (TIDAK WAJIB)"
+      },
+      {
+        "name": "imagesource5",
+        "type": "string",
+        "title": "Sumber Foto 5 (TIDAK WAJIB)"
+      },
+      {
+        "name": "paragraph5",
+        "type": "text",
+        "title": "Paragraph 5 (TIDAK WAJIB)"
+      },
+      {
+        "name": "deskripsigambar5",
+        "type": "text",
+        "title": "Deskripsi Gambar 5 (TIDAK WAJIB)"
+      }
+    ],
+    "name": "berita",
+    "type": "document"
+  }
+]
